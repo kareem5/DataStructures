@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62D979F224275D7500D3996D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D979F124275D7500D3996D /* Stack.swift */; };
+		62EC23E4242B92C2006826C6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EC23E3242B92C2006826C6 /* Queue.swift */; };
+		62EC23E7242CB178006826C6 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EC23E6242CB178006826C6 /* Heap.swift */; };
 		62FFC05A24227EAF001D4ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFC05924227EAF001D4ACC /* AppDelegate.swift */; };
 		62FFC05C24227EAF001D4ACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFC05B24227EAF001D4ACC /* SceneDelegate.swift */; };
 		62FFC05E24227EAF001D4ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFC05D24227EAF001D4ACC /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62D979F124275D7500D3996D /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		62EC23E3242B92C2006826C6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		62EC23E6242CB178006826C6 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		62FFC05624227EAF001D4ACC /* KMDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FFC05924227EAF001D4ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62FFC05B24227EAF001D4ACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62D979ED2427580A00D3996D /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				62D979F124275D7500D3996D /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		62EC23E2242B92B8006826C6 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				62EC23E3242B92C2006826C6 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		62EC23E5242CB16E006826C6 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				62EC23E6242CB178006826C6 /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		62FFC04D24227EAF001D4ACC = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,9 @@
 		62FFC06D24227F0A001D4ACC /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				62EC23E5242CB16E006826C6 /* Heap */,
+				62EC23E2242B92B8006826C6 /* Queue */,
+				62D979ED2427580A00D3996D /* Stack */,
 				62FFC07124227F3F001D4ACC /* LinkedList */,
 			);
 			path = DataStructures;
@@ -169,9 +202,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62FFC05E24227EAF001D4ACC /* ViewController.swift in Sources */,
+				62EC23E4242B92C2006826C6 /* Queue.swift in Sources */,
 				62FFC05A24227EAF001D4ACC /* AppDelegate.swift in Sources */,
+				62EC23E7242CB178006826C6 /* Heap.swift in Sources */,
 				62FFC07324228028001D4ACC /* LinkedList.swift in Sources */,
 				62FFC05C24227EAF001D4ACC /* SceneDelegate.swift in Sources */,
+				62D979F224275D7500D3996D /* Stack.swift in Sources */,
 				62FFC07024227F3A001D4ACC /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
